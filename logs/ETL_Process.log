@@ -1,0 +1,42 @@
+02:56:38 p. m.: DEBUG [connectionpool.py:1001] Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+02:56:40 p. m.: DEBUG [connectionpool.py:456] https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 304431
+02:57:36 p. m.: DEBUG [connectionpool.py:1001] Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+02:57:37 p. m.: DEBUG [connectionpool.py:456] https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 304431
+03:34:44 p. m.: DEBUG [connectionpool.py:1001] Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+03:34:45 p. m.: DEBUG [connectionpool.py:456] https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 304431
+03:35:12 p. m.: DEBUG [connectionpool.py:1001] Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+03:35:13 p. m.: DEBUG [connectionpool.py:456] https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv HTTP/1.1" 200 304431
+03:35:15 p. m.: DEBUG [connectionpool.py:456] https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
+03:35:16 p. m.: DEBUG [connectionpool.py:456] https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
+03:57:52 p. m.: INFO [main.py:25] Ejecución ArchivosCsv.descarga_archivos()
+03:57:54 p. m.: INFO [main.py:37] Comienza descarga de museos
+03:57:54 p. m.: INFO [main.py:41] Ocurrió un error Cannot save file into a non-existent directory: 'D:\Lautaro\Python\challenge-data-alkemy\data\2022-abril\museos', reintentando descarga
+03:57:54 p. m.: INFO [main.py:44] Archivo museos descargado con éxito
+03:57:56 p. m.: INFO [main.py:37] Comienza descarga de salas-de-cine
+03:57:56 p. m.: INFO [main.py:41] Ocurrió un error Cannot save file into a non-existent directory: 'D:\Lautaro\Python\challenge-data-alkemy\data\2022-abril\salas-de-cine', reintentando descarga
+03:57:56 p. m.: INFO [main.py:44] Archivo salas-de-cine descargado con éxito
+03:57:57 p. m.: INFO [main.py:37] Comienza descarga de bibliotecas
+03:57:57 p. m.: INFO [main.py:41] Ocurrió un error Cannot save file into a non-existent directory: 'D:\Lautaro\Python\challenge-data-alkemy\data\2022-abril\bibliotecas', reintentando descarga
+03:57:57 p. m.: INFO [main.py:44] Archivo bibliotecas descargado con éxito
+03:58:06 p. m.: INFO [main.py:25] Ejecución ArchivosCsv.descarga_archivos()
+03:58:08 p. m.: INFO [main.py:37] Comienza descarga de museos
+03:58:08 p. m.: INFO [main.py:39] Archivo museos descargado con éxito
+03:58:09 p. m.: INFO [main.py:37] Comienza descarga de salas-de-cine
+03:58:09 p. m.: INFO [main.py:39] Archivo salas-de-cine descargado con éxito
+03:58:11 p. m.: INFO [main.py:37] Comienza descarga de bibliotecas
+03:58:11 p. m.: INFO [main.py:39] Archivo bibliotecas descargado con éxito
+03:58:27 p. m.: INFO [main.py:25] Ejecución ArchivosCsv.descarga_archivos()
+03:58:29 p. m.: INFO [main.py:37] Comienza descarga de museos
+03:58:29 p. m.: INFO [main.py:39] Archivo museos descargado con éxito
+03:58:30 p. m.: INFO [main.py:37] Comienza descarga de salas-de-cine
+03:58:30 p. m.: INFO [main.py:39] Archivo salas-de-cine descargado con éxito
+03:58:31 p. m.: INFO [main.py:37] Comienza descarga de bibliotecas
+03:58:31 p. m.: INFO [main.py:39] Archivo bibliotecas descargado con éxito
+04:03:33 p. m.: INFO [main.py:36] Ejecución ArchivosCsv.descarga_archivos()
+04:03:57 p. m.: INFO [main.py:36] Ejecución ArchivosCsv.descarga_archivos()
+04:03:59 p. m.: INFO [main.py:47] Comienza descarga de museos
+04:03:59 p. m.: INFO [main.py:49] Archivo museos descargado con éxito
+04:04:00 p. m.: INFO [main.py:47] Comienza descarga de salas-de-cine
+04:04:00 p. m.: INFO [main.py:49] Archivo salas-de-cine descargado con éxito
+04:04:02 p. m.: INFO [main.py:47] Comienza descarga de bibliotecas
+04:04:02 p. m.: INFO [main.py:49] Archivo bibliotecas descargado con éxito
