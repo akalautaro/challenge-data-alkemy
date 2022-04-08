@@ -83,36 +83,32 @@ class ArchivosCsv:
                     raise Exception(f'Error: {e}')
     """
 
+
 if __name__ == "__main__":
     print('Challenge de Data Analytics - Alkemy')
 
     ac = ArchivosCsv()
 
-    ac.descarga_archivos()
+    # ac.descarga_archivos()
 
-    """
-    with requests.Session() as s:
-        for item in DATA_DICT:
-            try:
-                categoria = item['categoria']
-                download = s.get(item['url'])
-                decoded_content = download.content.decode('utf-8')
-                cr = csv.reader(decoded_content.splitlines(), delimiter=',')
-                my_list = list(cr)
-                # for row in my_list:
-                #     print(row)
-                # print(my_list)
-                df = pd.DataFrame(data=my_list)
-                # print(df)
-                NEW_DIR = fr'data\{DATE_DIRNAME}\{categoria}'
-                PATH_NEW_DIR = os.path.join(BASE_DIR, NEW_DIR)
-                df.to_csv(fr'{PATH_NEW_DIR}\{categoria}-{FECHA_ACTUAL}.csv', index=False, header=False)
-            except OSError as e:
-                categoria = item['categoria']
-                NEW_DIR = fr'data\{DATE_DIRNAME}\{categoria}'
-                PATH_NEW_DIR = os.path.join(BASE_DIR, NEW_DIR)
-                os.makedirs(PATH_NEW_DIR)
-                df.to_csv(fr'{PATH_NEW_DIR}\{categoria}-{FECHA_ACTUAL}.csv', index=False, header=False)
-            except Exception as e:
-                raise Exception(f'Error: {e}')
+    # TODO: Transform de los datos
+    # Bibliotecas
+    # Cod_Loc,IdProvincia,IdDepartamento,Observacion,Categoría,Subcategoria,Provincia,Departamento,Localidad,Nombre,Domicilio,Piso,CP,Cod_tel,Teléfono,Mail,Web,Información adicional,Latitud,Longitud,TipoLatitudLongitud,Fuente,Tipo_gestion,año_inicio,Año_actualizacion
+    # Museos
+    # Cod_Loc,IdProvincia,IdDepartamento,Observaciones,categoria,subcategoria,provincia,localidad,nombre,direccion,piso,CP,cod_area,telefono,Mail,Web,Latitud,Longitud,TipoLatitudLongitud,Info_adicional,fuente,jurisdiccion,año_inauguracion,actualizacion
+    # Salas de cine
+    # Cod_Loc,IdProvincia,IdDepartamento,Observaciones,Categoría,Provincia,Departamento,Localidad,Nombre,Dirección,Piso,CP,cod_area,Teléfono,Mail,Web,Información adicional,Latitud,Longitud,TipoLatitudLongitud,Fuente,tipo_gestion,Pantallas,Butacas,espacio_INCAA,año_actualizacion
+    """ Output:
+    - cod_localidad
+    - id_provincia
+    - id_departamento
+    - categoria
+    - provincia
+    - localidad
+    - nombre
+    - domicilio
+    - codigo_postal
+    - numero_telefono
+    - mail
+    - web
     """
