@@ -40,6 +40,12 @@ class ArchivosCsv:
             return path_new_dir
 
     def transformar_data(self, dataframe_parcial: pd.DataFrame, categoria: str):
+        """ Se podría hacer una sola función en lugar de dos, haciendo condicionales según categoría
+
+        :param dataframe_parcial:
+        :param categoria:
+        :return:
+        """
         df_transformado = pd.DataFrame()
         df_transformado.insert(0, 'cod_localidad', dataframe_parcial['Cod_Loc'])
         df_transformado.insert(1, 'id_provincia', dataframe_parcial['IdProvincia'])
@@ -56,7 +62,6 @@ class ArchivosCsv:
         df_transformado.insert(9, 'numero_telefono', dataframe_parcial['Teléfono'])
         df_transformado.insert(10, 'mail', dataframe_parcial['Mail'])
         df_transformado.insert(11, 'web', dataframe_parcial['Web'])
-        # dataframe_completo.append(df_transformado)
         self.conjuntos.append(df_transformado)
 
     def transformar_data_museos(self, dataframe_parcial: pd.DataFrame):
@@ -73,9 +78,10 @@ class ArchivosCsv:
         df_transformado.insert(9, 'numero_telefono', dataframe_parcial['telefono'])
         df_transformado.insert(10, 'mail', dataframe_parcial['Mail'])
         df_transformado.insert(11, 'web', dataframe_parcial['Web'])
-        # dataframe_completo.append(df_transformado)
         self.conjuntos.append(df_transformado)
-        # print(dataframe_completo.head)
+
+    def procesa_info_cines(self, dataframe_cines: pd.DataFrame):
+        pass
 
     def descarga_archivos(self):
         log.info('Ejecución ArchivosCsv.descarga_archivos()')
@@ -88,7 +94,6 @@ class ArchivosCsv:
                 cr = csv.reader(decoded_content.splitlines(), delimiter=',')
                 my_list = list(cr)
                 df = pd.DataFrame(data=my_list, columns=my_list[0])
-                #df.columns = df.iloc[0]
                 df = df.drop(df.index[0])
                 try:
                     log.info(f'Comienza descarga de {categoria}')
