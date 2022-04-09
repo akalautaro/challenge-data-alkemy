@@ -40,3 +40,170 @@
 04:04:00 p. m.: INFO [main.py:49] Archivo salas-de-cine descargado con éxito
 04:04:02 p. m.: INFO [main.py:47] Comienza descarga de bibliotecas
 04:04:02 p. m.: INFO [main.py:49] Archivo bibliotecas descargado con éxito
+11:47:29 a. m.: INFO [main.py:107] Challenge de Data Analytics - Alkemy
+11:47:29 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:47:29 a. m.: INFO [main.py:35] Se crean los directorios. Continúa el proceso de descarga.
+11:47:32 a. m.: INFO [main.py:85] Comienza descarga de museos
+11:47:32 a. m.: INFO [main.py:87] Archivo museos descargado con éxito
+11:47:32 a. m.: INFO [main.py:97] Se transforma data de museos
+11:48:02 a. m.: INFO [main.py:108] Challenge de Data Analytics - Alkemy
+11:48:02 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:48:02 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:48:04 a. m.: INFO [main.py:86] Comienza descarga de museos
+11:48:04 a. m.: INFO [main.py:88] Archivo museos descargado con éxito
+11:48:04 a. m.: INFO [main.py:98] Se transforma data de museos
+11:48:43 a. m.: INFO [main.py:109] Challenge de Data Analytics - Alkemy
+11:48:43 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:48:43 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:48:46 a. m.: INFO [main.py:87] Comienza descarga de museos
+11:48:46 a. m.: INFO [main.py:89] Archivo museos descargado con éxito
+11:48:46 a. m.: INFO [main.py:99] Se transforma data de museos
+11:48:54 a. m.: INFO [main.py:109] Challenge de Data Analytics - Alkemy
+11:48:54 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:48:54 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:48:56 a. m.: INFO [main.py:87] Comienza descarga de museos
+11:48:56 a. m.: INFO [main.py:89] Archivo museos descargado con éxito
+11:48:56 a. m.: INFO [main.py:99] Se transforma data de museos
+11:51:12 a. m.: INFO [main.py:110] Challenge de Data Analytics - Alkemy
+11:51:12 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:51:12 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:51:15 a. m.: INFO [main.py:88] Comienza descarga de museos
+11:51:15 a. m.: INFO [main.py:90] Archivo museos descargado con éxito
+11:51:15 a. m.: INFO [main.py:100] Se transforma data de museos
+11:51:25 a. m.: INFO [main.py:110] Challenge de Data Analytics - Alkemy
+11:51:25 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:51:25 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:51:27 a. m.: INFO [main.py:88] Comienza descarga de museos
+11:51:27 a. m.: INFO [main.py:90] Archivo museos descargado con éxito
+11:51:27 a. m.: INFO [main.py:100] Se transforma data de museos
+11:51:38 a. m.: INFO [main.py:110] Challenge de Data Analytics - Alkemy
+11:51:38 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:51:38 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:51:40 a. m.: INFO [main.py:88] Comienza descarga de museos
+11:51:40 a. m.: INFO [main.py:90] Archivo museos descargado con éxito
+11:51:40 a. m.: INFO [main.py:100] Se transforma data de museos
+11:52:47 a. m.: INFO [main.py:110] Challenge de Data Analytics - Alkemy
+11:52:47 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:52:47 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:52:49 a. m.: INFO [main.py:88] Comienza descarga de museos
+11:52:49 a. m.: INFO [main.py:90] Archivo museos descargado con éxito
+11:52:49 a. m.: INFO [main.py:100] Se transforma data de museos
+11:52:49 a. m.: INFO [main.py:35] Se crean los directorios. Continúa el proceso de descarga.
+11:52:51 a. m.: INFO [main.py:88] Comienza descarga de salas-de-cine
+11:52:51 a. m.: INFO [main.py:90] Archivo salas-de-cine descargado con éxito
+11:52:51 a. m.: INFO [main.py:103] Se transforma data de salas-de-cine
+11:52:51 a. m.: INFO [main.py:35] Se crean los directorios. Continúa el proceso de descarga.
+11:52:52 a. m.: INFO [main.py:88] Comienza descarga de bibliotecas
+11:52:52 a. m.: INFO [main.py:90] Archivo bibliotecas descargado con éxito
+11:52:52 a. m.: INFO [main.py:103] Se transforma data de bibliotecas
+11:54:14 a. m.: INFO [main.py:111] Challenge de Data Analytics - Alkemy
+11:54:14 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:54:14 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:54:16 a. m.: INFO [main.py:89] Comienza descarga de museos
+11:54:16 a. m.: INFO [main.py:91] Archivo museos descargado con éxito
+11:54:16 a. m.: INFO [main.py:101] Se transforma data de museos
+11:54:16 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:54:18 a. m.: INFO [main.py:89] Comienza descarga de salas-de-cine
+11:54:18 a. m.: INFO [main.py:91] Archivo salas-de-cine descargado con éxito
+11:54:18 a. m.: INFO [main.py:104] Se transforma data de salas-de-cine
+11:54:18 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:54:19 a. m.: INFO [main.py:89] Comienza descarga de bibliotecas
+11:54:19 a. m.: INFO [main.py:91] Archivo bibliotecas descargado con éxito
+11:54:19 a. m.: INFO [main.py:104] Se transforma data de bibliotecas
+11:54:56 a. m.: INFO [main.py:111] Challenge de Data Analytics - Alkemy
+11:54:56 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:54:56 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:55:17 a. m.: INFO [main.py:111] Challenge de Data Analytics - Alkemy
+11:55:17 a. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+11:55:17 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:55:19 a. m.: INFO [main.py:89] Comienza descarga de museos
+11:55:19 a. m.: INFO [main.py:91] Archivo museos descargado con éxito
+11:55:19 a. m.: INFO [main.py:101] Se transforma data de museos
+11:55:19 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:55:20 a. m.: INFO [main.py:89] Comienza descarga de salas-de-cine
+11:55:20 a. m.: INFO [main.py:91] Archivo salas-de-cine descargado con éxito
+11:55:20 a. m.: INFO [main.py:104] Se transforma data de salas-de-cine
+11:55:20 a. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+11:55:21 a. m.: INFO [main.py:89] Comienza descarga de bibliotecas
+11:55:21 a. m.: INFO [main.py:91] Archivo bibliotecas descargado con éxito
+11:55:21 a. m.: INFO [main.py:104] Se transforma data de bibliotecas
+12:02:59 p. m.: INFO [main.py:113] Challenge de Data Analytics - Alkemy
+12:02:59 p. m.: INFO [main.py:74] Ejecución ArchivosCsv.descarga_archivos()
+12:02:59 p. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+12:03:02 p. m.: INFO [main.py:89] Comienza descarga de museos
+12:03:02 p. m.: INFO [main.py:92] Archivo museos descargado con éxito
+12:03:02 p. m.: INFO [main.py:103] Se transforma data de museos
+12:03:02 p. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+12:03:03 p. m.: INFO [main.py:89] Comienza descarga de salas-de-cine
+12:03:03 p. m.: INFO [main.py:92] Archivo salas-de-cine descargado con éxito
+12:03:03 p. m.: INFO [main.py:106] Se transforma data de salas-de-cine
+12:03:03 p. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+12:03:05 p. m.: INFO [main.py:89] Comienza descarga de bibliotecas
+12:03:05 p. m.: INFO [main.py:92] Archivo bibliotecas descargado con éxito
+12:03:05 p. m.: INFO [main.py:106] Se transforma data de bibliotecas
+12:13:30 p. m.: INFO [main.py:116] Challenge de Data Analytics - Alkemy
+12:13:30 p. m.: INFO [main.py:77] Ejecución ArchivosCsv.descarga_archivos()
+12:13:30 p. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+12:13:32 p. m.: INFO [main.py:92] Comienza descarga de museos
+12:13:32 p. m.: INFO [main.py:95] Archivo museos descargado con éxito
+12:13:32 p. m.: INFO [main.py:106] Se transforma data de museos
+12:13:32 p. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+12:13:33 p. m.: INFO [main.py:92] Comienza descarga de salas-de-cine
+12:13:33 p. m.: INFO [main.py:95] Archivo salas-de-cine descargado con éxito
+12:13:33 p. m.: INFO [main.py:109] Se transforma data de salas-de-cine
+12:16:00 p. m.: INFO [main.py:116] Challenge de Data Analytics - Alkemy
+12:16:00 p. m.: INFO [main.py:77] Ejecución ArchivosCsv.descarga_archivos()
+12:16:00 p. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+12:16:02 p. m.: INFO [main.py:92] Comienza descarga de museos
+12:16:02 p. m.: INFO [main.py:95] Archivo museos descargado con éxito
+12:16:02 p. m.: INFO [main.py:106] Se transforma data de museos
+12:16:02 p. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+12:16:04 p. m.: INFO [main.py:92] Comienza descarga de salas-de-cine
+12:16:04 p. m.: INFO [main.py:95] Archivo salas-de-cine descargado con éxito
+12:16:04 p. m.: INFO [main.py:109] Se transforma data de salas-de-cine
+12:16:04 p. m.: INFO [main.py:38] Directorios ya existentes. Continúa el proceso de descarga.
+12:16:06 p. m.: INFO [main.py:92] Comienza descarga de bibliotecas
+12:16:06 p. m.: INFO [main.py:95] Archivo bibliotecas descargado con éxito
+12:16:06 p. m.: INFO [main.py:109] Se transforma data de bibliotecas
+12:17:36 p. m.: INFO [main.py:115] Challenge de Data Analytics - Alkemy
+12:17:36 p. m.: INFO [main.py:76] Ejecución ArchivosCsv.descarga_archivos()
+12:17:36 p. m.: INFO [main.py:34] Se crean los directorios. Continúa el proceso de descarga.
+12:17:38 p. m.: INFO [main.py:91] Comienza descarga de museos
+12:17:38 p. m.: INFO [main.py:94] Archivo museos descargado con éxito
+12:17:38 p. m.: INFO [main.py:105] Se transforma data de museos
+12:17:38 p. m.: INFO [main.py:34] Se crean los directorios. Continúa el proceso de descarga.
+12:17:39 p. m.: INFO [main.py:91] Comienza descarga de salas-de-cine
+12:17:39 p. m.: INFO [main.py:94] Archivo salas-de-cine descargado con éxito
+12:17:39 p. m.: INFO [main.py:108] Se transforma data de salas-de-cine
+12:17:39 p. m.: INFO [main.py:34] Se crean los directorios. Continúa el proceso de descarga.
+12:17:41 p. m.: INFO [main.py:91] Comienza descarga de bibliotecas
+12:17:41 p. m.: INFO [main.py:94] Archivo bibliotecas descargado con éxito
+12:17:41 p. m.: INFO [main.py:108] Se transforma data de bibliotecas
+12:18:08 p. m.: INFO [main.py:114] Challenge de Data Analytics - Alkemy
+12:18:08 p. m.: INFO [main.py:77] Ejecución ArchivosCsv.descarga_archivos()
+12:18:08 p. m.: INFO [main.py:37] Directorios ya existentes. Continúa el proceso de descarga.
+12:18:10 p. m.: INFO [main.py:90] Comienza descarga de museos
+12:18:10 p. m.: INFO [main.py:93] Archivo museos descargado con éxito
+12:18:10 p. m.: INFO [main.py:104] Se transforma data de museos
+12:18:11 p. m.: INFO [main.py:37] Directorios ya existentes. Continúa el proceso de descarga.
+12:18:12 p. m.: INFO [main.py:90] Comienza descarga de salas-de-cine
+12:18:12 p. m.: INFO [main.py:93] Archivo salas-de-cine descargado con éxito
+12:18:12 p. m.: INFO [main.py:107] Se transforma data de salas-de-cine
+12:18:12 p. m.: INFO [main.py:37] Directorios ya existentes. Continúa el proceso de descarga.
+12:18:14 p. m.: INFO [main.py:90] Comienza descarga de bibliotecas
+12:18:14 p. m.: INFO [main.py:93] Archivo bibliotecas descargado con éxito
+12:18:14 p. m.: INFO [main.py:107] Se transforma data de bibliotecas
+12:20:46 p. m.: INFO [main.py:120] Challenge de Data Analytics - Alkemy
+12:20:46 p. m.: INFO [main.py:81] Ejecución ArchivosCsv.descarga_archivos()
+12:20:46 p. m.: INFO [main.py:39] Directorios ya existentes. Continúa el proceso de descarga.
+12:20:49 p. m.: INFO [main.py:94] Comienza descarga de museos
+12:20:49 p. m.: INFO [main.py:97] Archivo museos descargado con éxito
+12:20:49 p. m.: INFO [main.py:108] Se transforma data de museos
+12:20:49 p. m.: INFO [main.py:39] Directorios ya existentes. Continúa el proceso de descarga.
+12:20:50 p. m.: INFO [main.py:94] Comienza descarga de salas-de-cine
+12:20:50 p. m.: INFO [main.py:97] Archivo salas-de-cine descargado con éxito
+12:20:50 p. m.: INFO [main.py:111] Se transforma data de salas-de-cine
+12:20:50 p. m.: INFO [main.py:39] Directorios ya existentes. Continúa el proceso de descarga.
+12:20:52 p. m.: INFO [main.py:94] Comienza descarga de bibliotecas
+12:20:52 p. m.: INFO [main.py:97] Archivo bibliotecas descargado con éxito
+12:20:52 p. m.: INFO [main.py:111] Se transforma data de bibliotecas
