@@ -22,6 +22,19 @@ LISTA_COLUMNAS = ['cod_localidad', 'id_provincia', 'id_departamento', 'categoria
                   'nombre', 'domicilio', 'codigo_postal', 'numero_telefono', 'mail', 'web']
 dataframe_completo = pd.DataFrame(columns=LISTA_COLUMNAS)  # inicializo un dataframe vacío
 
+""" TODOS DATABASE:
+- Tiene que ser PostgreSQL
+- Creación de DB y tablas desde scripts sql
+- Los scripts sql deben ejecutarse desde un script python
+- Los datos de la conexión a la DB deben ser fácilmente editables
+- Tablas deben tener columna timestamp
+- Los registros que no tengan info deben cargarse como null
+
+* Dataframe.to_sql  --> replace
+* NaN               --> null
+"""
+
+
 
 class ArchivosCsv:
 
