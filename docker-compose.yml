@@ -1,0 +1,14 @@
+version: '2'
+services:
+  postgres:
+    container_name: postgres-espacios-cultulares
+    image: 'postgres:latest'
+    restart: always
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./database/pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Admin123
+    ports:
+      - '5458:5432'

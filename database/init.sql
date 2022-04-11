@@ -4,42 +4,51 @@ CREATE DATABASE data_analytics;
 
 \c data_analytics;
 
-[cod_localidad, id_provincia, id_departamento,
-categoria, provincia, localidad, nombre,
-domicilio, codigo_postal, numero_telefono,
-mail, web]
-
--- 1era tabla: todos los datos con la información normalizada
+-- 1era tabla: datos consolidados con la información normalizada
 CREATE TABLE IF NOT EXISTS espaciosculturales (
     espacio_id          serial PRIMARY KEY,
-    cod_localidad       INTEGER,
+    cod_localidad       VARCHAR(50),
     id_provincia        VARCHAR(2),
     id_departamento     VARCHAR(5),
     categoria           VARCHAR(50),
-    provincia           VARCHAR(50),
-    localidad           VARCHAR(50),
+    provincia           VARCHAR(100),
+    localidad           VARCHAR(100),
     nombre              VARCHAR(100),
     domicilio           VARCHAR(100),
     codigo_postal       VARCHAR(10),
     numero_telefono     VARCHAR(20),
     mail                VARCHAR(100),
     web                 VARCHAR(100),
-    insert_timestamp    TIMESTAMP
+    insert_date         DATE
 );
 
--- 2da tabla: tabla con registros totalizados etc
-CREATE TABLE IF NOT EXISTS registrostotales (
-    totales_categoria               INTEGER,
-    totales_fuente                  INTEGER,  -- por link?
-    totales_provincia_categoria     INTEGER,
-    insert_timestamp                TIMESTAMP
-)
+-- 2da tabla: tabla con registros totalizados por categoria
+CREATE TABLE IF NOT EXISTS totales_categoria (
+    categoria           VARCHAR(20),
+    cantidad            INTEGER,
+    insert_date         DATE
+);
 
--- 3era tabla: tabla con info de cines
+-- 3era tabla: tabla con registros totalizados por fuente
+CREATE TABLE IF NOT EXISTS totales_fuente (
+    fuente              VARCHAR(100),
+    cantidad            INTEGER,
+    insert_date         DATE
+);
+
+-- 4ta tabla: tabla con registros totalizados por provincia y categoría
+CREATE TABLE IF NOT EXISTS totales_provincia_y_cat (
+    provincia           VARCHAR(100),
+    categoria           VARCHAR(20),
+    cantidad            INTEGER,
+    insert_date         DATE
+);
+
+-- 5ta tabla: tabla con info de cines
 CREATE TABLE IF NOT EXISTS salascine (
-    id_provincia                serial PRIMARY KEY,
+    provincia                   VARCHAR(100),
     cantidad_pantallas          INTEGER,
     cantidad_butacas            INTEGER,
-    cantidad_espacios_INCAA     INTEGER, -- buscar "Espacio incaa" en columna nombre
-    insert_timestamp            TIMESTAMP
-)
+    cantidad_espacios_INCAA     INTEGER,
+    insert_date                 DATE
+);
