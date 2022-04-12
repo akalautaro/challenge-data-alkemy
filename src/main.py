@@ -7,6 +7,7 @@ import locale
 from logger_base import log
 from decouple import config
 from ast import literal_eval
+from pathlib import Path
 
 # Importo módulo con la conexión al cliente PostgreSQL
 from postgres_client import PostgresClient
@@ -15,7 +16,9 @@ pgclient = PostgresClient()
 
 # Configuraciones iniciales y algunas constantes
 locale.setlocale(locale.LC_TIME, '')  # Esto para que el nombre de los meses sea en español
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+BASE_DIR = Path(os.path.abspath(os.path.dirname(__file__))).parent.absolute()
+
+print(BASE_DIR)
 FECHA_ACTUAL = datetime.date.today().strftime('%d-%m-%Y')
 DATE_DIRNAME = datetime.date.today().strftime('%Y-%B')
 
@@ -139,14 +142,11 @@ class ArchivosCsv:
                             self.extract_data(df, categoria=categoria)
                             self.tabla_totales(df, categoria)
 
-        # conjunto_completo = pd.concat(self.conjuntos)
         conjunto_completo = self.consolida_info(self.conjuntos)
-        # print(conjunto_completo)
         pgclient.carga_info_consolidada(conjunto_completo)
-        conjunto_completo.to_csv(f'./data/Conjunto-datos-completo-{FECHA_ACTUAL}.csv', index=False)
+        conjunto_completo.to_csv(f'../data/Conjunto-datos-completo-{FECHA_ACTUAL}.csv', index=False)
 
         conjunto_tabla_totales = self.consolida_info(self.conjunto_tabla_totales)
-        # print(conjunto_tabla_totales)
         pgclient.carga_datos_totalizados(conjunto_tabla_totales)
 
     def tabla_totales(self, dataframe_parcial: pd.DataFrame, categoria: str):
@@ -160,13 +160,13 @@ class ArchivosCsv:
         df_tabla_totales = pd.DataFrame()
 
         if categoria == 'museos':
-            df_tabla_totales.insert(0, 'Provincia', dataframe_parcial['provincia'])
-            df_tabla_totales.insert(1, 'Categoria', dataframe_parcial['categoria'])
-            df_tabla_totales.insert(2, 'Fuente', dataframe_parcial['fuente'])
+            df_tabla_totales.insert(0, 'provincia', dataframe_parcial['provincia'])
+            df_tabla_totales.insert(1, 'categoria', dataframe_parcial['categoria'])
+            df_tabla_totales.insert(2, 'fuente', dataframe_parcial['fuente'])
         else:
-            df_tabla_totales.insert(0, 'Provincia', dataframe_parcial['Provincia'])
-            df_tabla_totales.insert(1, 'Categoria', dataframe_parcial['Categoría'])
-            df_tabla_totales.insert(2, 'Fuente', dataframe_parcial['Fuente'])
+            df_tabla_totales.insert(0, 'provincia', dataframe_parcial['Provincia'])
+            df_tabla_totales.insert(1, 'categoria', dataframe_parcial['Categoría'])
+            df_tabla_totales.insert(2, 'fuente', dataframe_parcial['Fuente'])
 
         self.conjunto_tabla_totales.append(df_tabla_totales)
 

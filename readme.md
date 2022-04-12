@@ -4,12 +4,14 @@
 
 ### Instrucciones para ejecución del proyecto
 
+*Los siguientes comandos se ejecutan desde una terminal cmd, powershell, bash o similar.*
+
 - #### Primero hay que crear y ejecutar un virtual environment:
   - `python -m venv venv`
-  - `/venv/Scripts/activate` o `/venv/Scripts/activate.sh` en Linux
+  - `/venv/Scripts/activate` en Windows o `/venv/Scripts/activate.sh` en Linux
 
-- #### Instalar las dependencias necesarias
-`pip -r install requirements.txt`
+- #### Instalar las dependencias necesarias para correr el programa
+  - `pip -r install requirements.txt`
 
 - #### Configurar conexión a la base de datos desde el archivo .env 
 
@@ -45,7 +47,8 @@ En una terminal corremos el siguiente comando:
 
 `docker-compose up`, o si queremos hacerlo en background `docker-compose up -d`
 
-Si todo salió OK, deberíamos poder conectarnos desde cualquier gestor de bases de datos. En mi caso, utilicé DBeaver que es open source.
+Si todo salió OK, deberíamos poder conectarnos desde cualquier gestor de bases de datos. En mi caso, utilicé [DBeaver](https://dbeaver.io/) 
+que es open source y tiene soporte para conectarse y trabajar con múltiples motores de bases de datos (Sybase, PostgreSQL, Hana, SQL Server, etc).
 
 ![Configuración conexión en DBeaver](imgs/configuración_dbeaver.png)
 ![Chequeo conexión en DBeaver](imgs/check_conexión_dbeaver.png)
@@ -58,4 +61,6 @@ Para correr el programa que descarga los archivos, procesa la info y los sube a 
 
 El logger está configurado en `/src/logger_base.py` y los logs de la ejecución se almacenan en `./logs/ETL_Process.log`
 
-Tanto la conexión como la transformación y carga de los datos están configurados en el archivo `/src/postgres_client.py`. 
+Tanto la transformación y carga de los datos, como también la conexión a la base PostgreSQL están configurados en el archivo `/src/postgres_client.py`. 
+
+*Tip: Para ejecutar periódicamente este script, se podría utilizar una herramienta para schedulear la ejecución (Tareas programadas en Windows, Cron en Linux), o también AirFlow.*

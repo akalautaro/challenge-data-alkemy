@@ -838,3 +838,147 @@
 12:22:20 p. m.: INFO [postgres_client.py:47] Cargando información consolidada a la base de datos
 12:22:20 p. m.: INFO [postgres_client.py:55] Transformando data
 12:22:21 p. m.: INFO [postgres_client.py:58] Información consolidada cargada con éxito
+09:01:28 PM: INFO [postgres_client.py:31] Conectado con éxito a data_analytics
+09:01:28 PM: INFO [postgres_client.py:32] Engine creado con éxito
+09:01:28 p. m.: INFO [main.py:190] Challenge de Data Analytics - Alkemy
+09:01:28 p. m.: INFO [main.py:104] Ejecución ArchivosCsv.descarga_archivos()
+09:01:28 p. m.: INFO [main.py:47] Directorios ya existentes. Continúa el proceso de descarga.
+09:01:30 p. m.: INFO [main.py:116] Comienza descarga de museos
+09:01:30 p. m.: INFO [main.py:118] Archivo museos descargado con éxito
+09:01:30 p. m.: INFO [main.py:127] Comienza la extracción de los datos
+09:01:30 p. m.: INFO [main.py:129] Se extrae data de museos
+09:01:31 p. m.: INFO [main.py:47] Directorios ya existentes. Continúa el proceso de descarga.
+09:01:32 p. m.: INFO [main.py:116] Comienza descarga de salas-de-cine
+09:01:32 p. m.: INFO [main.py:118] Archivo salas-de-cine descargado con éxito
+09:01:32 p. m.: INFO [main.py:127] Comienza la extracción de los datos
+09:01:32 p. m.: INFO [main.py:133] Se extrae data de salas-de-cine
+09:01:32 p. m.: INFO [postgres_client.py:121] ---------------------------------------data_cines_to_postgres---------------------------------------
+09:01:32 p. m.: INFO [postgres_client.py:140] Cargando data
+09:01:32 p. m.: INFO [postgres_client.py:143] Datos de "salas de cine" cargados con éxitos
+09:01:32 p. m.: INFO [main.py:47] Directorios ya existentes. Continúa el proceso de descarga.
+09:01:35 p. m.: INFO [main.py:116] Comienza descarga de bibliotecas
+09:01:35 p. m.: INFO [main.py:118] Archivo bibliotecas descargado con éxito
+09:01:35 p. m.: INFO [main.py:127] Comienza la extracción de los datos
+09:01:35 p. m.: INFO [main.py:133] Se extrae data de bibliotecas
+09:01:35 p. m.: INFO [postgres_client.py:37] Cargando información consolidada a la base de datos
+09:01:35 p. m.: INFO [postgres_client.py:50] Transformando data_consolidada
+09:01:35 p. m.: INFO [postgres_client.py:53] Información consolidada cargada con éxito
+09:01:35 p. m.: INFO [postgres_client.py:58] -------------------------------Carga de datos a tablas totalizadoras--------------------------------
+09:01:35 p. m.: INFO [postgres_client.py:90] Comienza la carga de datos
+09:01:35 p. m.: INFO [postgres_client.py:94] Información insertada a totales_provincia_y_cat con éxito
+09:01:35 p. m.: INFO [postgres_client.py:98] Toda la información fue insertada con éxito
+09:01:35 p. m.: INFO [postgres_client.py:94] Información insertada a totales_categoria con éxito
+09:01:35 p. m.: INFO [postgres_client.py:98] Toda la información fue insertada con éxito
+09:01:35 p. m.: INFO [postgres_client.py:94] Información insertada a totales_fuente con éxito
+09:01:35 p. m.: INFO [postgres_client.py:98] Toda la información fue insertada con éxito
+09:19:15 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:19:15 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:19:15 p. m.: INFO [main.py:190] Challenge de Data Analytics - Alkemy
+09:19:15 p. m.: INFO [main.py:107] Ejecución ArchivosCsv.descarga_archivos()
+09:19:15 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:19:18 p. m.: INFO [main.py:119] Comienza descarga de museos
+09:19:18 p. m.: INFO [main.py:121] Archivo museos descargado con éxito
+09:19:18 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:19:18 p. m.: INFO [main.py:132] Se extrae data de museos
+09:19:18 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:21:16 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:21:16 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:21:28 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:21:28 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:21:32 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:21:32 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:21:35 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:21:35 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:21:59 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:21:59 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:23:01 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:23:01 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:23:01 p. m.: INFO [main.py:190] Challenge de Data Analytics - Alkemy
+09:23:01 p. m.: INFO [main.py:107] Ejecución ArchivosCsv.descarga_archivos()
+09:23:01 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:23:03 p. m.: INFO [main.py:119] Comienza descarga de museos
+09:23:03 p. m.: INFO [main.py:121] Archivo museos descargado con éxito
+09:23:03 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:23:03 p. m.: INFO [main.py:132] Se extrae data de museos
+09:23:03 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:23:05 p. m.: INFO [main.py:119] Comienza descarga de salas-de-cine
+09:23:05 p. m.: INFO [main.py:121] Archivo salas-de-cine descargado con éxito
+09:23:05 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:23:05 p. m.: INFO [main.py:136] Se extrae data de salas-de-cine
+09:23:05 p. m.: INFO [postgres_client.py:120] data_cines_to_postgres
+09:23:05 p. m.: INFO [postgres_client.py:139] Cargando data
+09:23:05 p. m.: INFO [postgres_client.py:142] Datos de "salas de cine" cargados con éxitos
+09:23:05 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:23:07 p. m.: INFO [main.py:119] Comienza descarga de bibliotecas
+09:23:07 p. m.: INFO [main.py:121] Archivo bibliotecas descargado con éxito
+09:23:07 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:23:07 p. m.: INFO [main.py:136] Se extrae data de bibliotecas
+09:23:07 p. m.: INFO [postgres_client.py:47] Cargando información consolidada a la base de datos
+09:23:07 p. m.: INFO [postgres_client.py:57] Carga data_consolidada
+09:23:08 p. m.: INFO [postgres_client.py:60] Información consolidada cargada con éxito
+09:23:08 p. m.: INFO [postgres_client.py:71] Carga de datos a tablas totalizadoras
+09:23:08 p. m.: INFO [postgres_client.py:102] Comienza la carga de datos
+09:23:08 p. m.: INFO [postgres_client.py:106] Información insertada a totales_provincia_y_cat con éxito
+09:23:08 p. m.: INFO [postgres_client.py:110] Toda la información fue insertada con éxito
+09:23:08 p. m.: INFO [postgres_client.py:106] Información insertada a totales_categoria con éxito
+09:23:08 p. m.: INFO [postgres_client.py:110] Toda la información fue insertada con éxito
+09:23:08 p. m.: INFO [postgres_client.py:106] Información insertada a totales_fuente con éxito
+09:23:08 p. m.: INFO [postgres_client.py:110] Toda la información fue insertada con éxito
+09:23:19 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:23:19 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:23:19 p. m.: INFO [main.py:190] Challenge de Data Analytics - Alkemy
+09:23:19 p. m.: INFO [main.py:107] Ejecución ArchivosCsv.descarga_archivos()
+09:23:19 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:23:21 p. m.: INFO [main.py:119] Comienza descarga de museos
+09:23:21 p. m.: INFO [main.py:121] Archivo museos descargado con éxito
+09:23:21 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:23:21 p. m.: INFO [main.py:132] Se extrae data de museos
+09:23:21 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:23:22 p. m.: INFO [main.py:119] Comienza descarga de salas-de-cine
+09:23:22 p. m.: INFO [main.py:121] Archivo salas-de-cine descargado con éxito
+09:23:22 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:23:22 p. m.: INFO [main.py:136] Se extrae data de salas-de-cine
+09:23:22 p. m.: INFO [postgres_client.py:120] data_cines_to_postgres
+09:23:22 p. m.: INFO [postgres_client.py:139] Cargando data
+09:23:22 p. m.: INFO [postgres_client.py:142] Datos de "salas de cine" cargados con éxitos
+09:23:22 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:23:24 p. m.: INFO [main.py:119] Comienza descarga de bibliotecas
+09:23:24 p. m.: INFO [main.py:121] Archivo bibliotecas descargado con éxito
+09:23:24 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:23:24 p. m.: INFO [main.py:136] Se extrae data de bibliotecas
+09:23:24 p. m.: INFO [postgres_client.py:47] Cargando información consolidada a la base de datos
+09:23:24 p. m.: INFO [postgres_client.py:57] Carga data_consolidada
+09:23:24 p. m.: INFO [postgres_client.py:60] Información consolidada cargada con éxito
+09:24:28 PM: INFO [postgres_client.py:34] Engine creado con éxito
+09:24:28 PM: INFO [postgres_client.py:35] Conectado con éxito a data_analytics
+09:24:28 p. m.: INFO [main.py:190] Challenge de Data Analytics - Alkemy
+09:24:28 p. m.: INFO [main.py:107] Ejecución ArchivosCsv.descarga_archivos()
+09:24:28 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:24:30 p. m.: INFO [main.py:119] Comienza descarga de museos
+09:24:30 p. m.: INFO [main.py:121] Archivo museos descargado con éxito
+09:24:30 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:24:30 p. m.: INFO [main.py:132] Se extrae data de museos
+09:24:30 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:24:32 p. m.: INFO [main.py:119] Comienza descarga de salas-de-cine
+09:24:32 p. m.: INFO [main.py:121] Archivo salas-de-cine descargado con éxito
+09:24:32 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:24:32 p. m.: INFO [main.py:136] Se extrae data de salas-de-cine
+09:24:32 p. m.: INFO [postgres_client.py:120] data_cines_to_postgres
+09:24:32 p. m.: INFO [postgres_client.py:139] Cargando data
+09:24:32 p. m.: INFO [postgres_client.py:142] Datos de "salas de cine" cargados con éxitos
+09:24:32 p. m.: INFO [main.py:50] Directorios ya existentes. Continúa el proceso de descarga.
+09:24:35 p. m.: INFO [main.py:119] Comienza descarga de bibliotecas
+09:24:35 p. m.: INFO [main.py:121] Archivo bibliotecas descargado con éxito
+09:24:35 p. m.: INFO [main.py:130] Comienza la extracción de los datos
+09:24:35 p. m.: INFO [main.py:136] Se extrae data de bibliotecas
+09:24:35 p. m.: INFO [postgres_client.py:47] Cargando información consolidada a la base de datos
+09:24:35 p. m.: INFO [postgres_client.py:57] Carga data_consolidada
+09:24:35 p. m.: INFO [postgres_client.py:60] Información consolidada cargada con éxito
+09:24:35 p. m.: INFO [postgres_client.py:71] Carga de datos a tablas totalizadoras
+09:24:35 p. m.: INFO [postgres_client.py:102] Comienza la carga de datos
+09:24:35 p. m.: INFO [postgres_client.py:106] Información insertada a totales_provincia_y_cat con éxito
+09:24:35 p. m.: INFO [postgres_client.py:110] Toda la información fue insertada con éxito
+09:24:35 p. m.: INFO [postgres_client.py:106] Información insertada a totales_categoria con éxito
+09:24:35 p. m.: INFO [postgres_client.py:110] Toda la información fue insertada con éxito
+09:24:35 p. m.: INFO [postgres_client.py:106] Información insertada a totales_fuente con éxito
+09:24:35 p. m.: INFO [postgres_client.py:110] Toda la información fue insertada con éxito

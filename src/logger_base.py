@@ -6,7 +6,7 @@ try:
 except FileExistsError:
     pass
 
-log.basicConfig(level=log.CRITICAL,
+log.basicConfig(level=log._log_level,
                 format='%(asctime)s: %(levelname)s [%(filename)s:%(lineno)s] %(message)s',
                 datefmt='%I:%M:%S %p',
                 handlers=[
