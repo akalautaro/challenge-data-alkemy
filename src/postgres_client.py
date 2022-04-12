@@ -10,12 +10,19 @@ import numpy as np
 class PostgresClient:
     """ Esta clase se encarga de la conexión a la base de datos PostgreSQL, como también de la transformación de los
     datos provenientes de distintos dataframes para su posterior carga en la base de datos.
+
+    Attributes:
+        db_host (str): host de la base de datos
+        db_port (int): puerto de la base de datos
+        db_name (str): nombre de la base de datos
+        db_user (str): usuario para autenticarse en la base de datos
+        db_password (str): contraseña para autenticarse en la base de dato
     """
-    db_user = ""
-    db_pwd = ""
     db_host = ""
     db_port = 5432
-    db_dbn = ""
+    db_name = ""
+    db_user = ""
+    db_password = ""
     conn: psycopg2
 
     def __init__(self, user="", passwd="", dbn="", host="", port=5458):
