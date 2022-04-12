@@ -58,7 +58,6 @@ class ArchivosCsv:
             dataframe_parcial (pd.DataFrame): dataframe con la info del archivo .csv
             categoria (str): tipo de institución (museo, sala de cine, biblioteca)
         """
-        timestamp = datetime.datetime.now()
         df_transformado = pd.DataFrame()
         df_transformado.insert(0, 'cod_localidad', dataframe_parcial['Cod_Loc'].astype(str))
         df_transformado.insert(1, 'id_provincia', dataframe_parcial['IdProvincia'])
