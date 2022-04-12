@@ -1,5 +1,7 @@
 # Alkemy Data Analytics - Challenge
 
+#### Resolución del challenge para Data Analytics de Alkemy. Idea propuesta en el server de Discord de [CodinEric](https://twitter.com/CodinEric)
+
 #### Challenge disponible en [Challenge_Data_Analytics_con_Python](https://github.com/akalautaro/challenge-data-alkemy/blob/main/Challenge_Data_Analytics_con_Python.pdf)
 
 ### Instrucciones para ejecución del proyecto
